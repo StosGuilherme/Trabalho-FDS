@@ -108,6 +108,7 @@ main {
 }
 
 .firstContainer {
+    width: 100%;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -118,12 +119,14 @@ main {
 
 .buy-button {
     margin-top: 90px;
-    padding: 20px 60px;
+    padding: 60px 80px;
     letter-spacing: 1px;
+    font-size: 2rem;
+    background-color: #A6603A;
     color: #EFE3B8;
-    text-decoration: none;
     border: 1px solid #EFE3B8;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* SECTION QUEM SOMOS NOS */
@@ -165,6 +168,8 @@ section #quemSomosNos p {
 /* NOSSO PRODUTOS */
 
 #nossosProdutos {
+    display: flex;
+    justify-content: center;
     font-size: 3rem;
     padding: 20px 6dvb;
     background-color: #5D3621;
